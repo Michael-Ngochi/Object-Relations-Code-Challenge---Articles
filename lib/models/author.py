@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship, validates
 from db import Base
-from models.article import Article  # Avoid circular import issues
+from models.article import Article  
 
 class Author(Base):
     __tablename__ = "authors"

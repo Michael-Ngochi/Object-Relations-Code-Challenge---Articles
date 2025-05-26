@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship, validates
 from db import Base
-from models.article import Article  # to link relationships
+from models.article import Article 
 
 class Magazine(Base):
     __tablename__ = "magazines"
