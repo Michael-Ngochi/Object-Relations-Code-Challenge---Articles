@@ -34,7 +34,7 @@ Object-Relations-Code-Challenge---Articles/
 ### 1. Clone the repository
 
 ```bash
-git clone <repo-url>
+git clone git@github.com:Michael-Ngochi/Object-Relations-Code-Challenge---Articles.git
 cd Object-Relations-Code-Challenge---Articles
 ```
 
